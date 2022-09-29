@@ -1,0 +1,28 @@
+#movingNav {
+}
+
+.vertical_nav_list {
+    width: 15%;
+    position: relative;
+    /*
+     * The gigantic z-index ensures things won't
+     * end up on top of this by accident.
+     */
+    z-index: 100;
+    top: 1em;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 2vw;
+}
+
+.vertical_nav_list > li {
+    height: 100%;
+    text-align: left;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.vertical_nav_item {
+    width: 100%;
+    display: block;
+}

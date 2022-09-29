@@ -1,0 +1,15 @@
+<link property="stylesheet" type="text/css" rel="stylesheet" href="{{url_for('static', filename='stylesheets/vertical_nav.css')}}">
+
+<nav id="movingNav">
+	<ul class="vertical_nav_list {{background_class.get_background()}}">
+		<!-- Note that this is hidden by the javascript at the start.
+			the movingNav box is the only one that is always visible
+
+			 These have the same IDs in addition to their other IDs
+			 to allow their movement to be controlled by the navigation_handler.js-->
+		<li><a href="" class="{{text_class.get_font()}} medium_buttonLink vertical_nav_item homeLink">home</a></li>
+		<li><a href="" class="{{text_class.get_font()}} medium_buttonLink vertical_nav_item projectsLink">projects</a></li>
+		<li><a href="" class="{{text_class.get_font()}} medium_buttonLink vertical_nav_item runningLink">running</a></li>
+		<li><a href="" class="{{text_class.get_font()}} medium_buttonLink vertical_nav_item aboutLink">me</a></li>
+    </ul>
+</nav>

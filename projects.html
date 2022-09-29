@@ -1,0 +1,73 @@
+<link property="stylesheet" type="text/css" rel="stylesheet" href="{{url_for('static', filename='stylesheets/projects_section.css')}}">
+
+<div id="publications_div">
+<p class="xlarge_text underline">Publications:</p>
+<p class="large_text"><u>Jackson Woodruff</u>, Jordi Armengol-Estapé, Sam Ainsworth, Michael F.P. O'Boyle, Bind the Gap: Compiling Real Software to Hardware FFT Accelerators, PLDI 2022 <a href="{{url_for('static', filename='pdfs/pldi2022.pdf')}}">Preprint</a> <a href="https://github.com/FourierACceleratorCompiler/FACC">Code</a></p>
+<p class="large_text">Noa Zilberman, Andrew W Moore, Billy Cooper, <u>Jackson Woodruff</u>, Yuta Tokusashi, Pietro Bressana, Murali Ramanujam, Salvator Galea, NRG: A Netwrok Perspective on Applicatoins' Performance, TMA 2021 <a href="https://eng.ox.ac.uk/media/9964/zilberman21nrg.pdf">PDF</a></p>
+<p class="large_text"><u>Jackson Woodruff</u>, Michael F. P. O'Boyle, New Regular Expressions on Old Accelerators, 58th Design Automation Conference, 2021.  <a href="{{url_for('static', filename='pdfs/DAC_2021_Paper.pdf')}}">Preprint</a> <a href="https://github.com/j-c-w/RXPSC">Code</a></p>
+<p class="large_text">Bruce Collie, Philip Ginsbach, <u>Jackson Woodruff</u>, Ajitha Rajan, Michael F. P. O'Boyle, M3: Semantic API Migrations, International Conference on Automated Software Engineering, 2020. <a href="https://baltoli.github.io/static/ase.pdf">PDF</a></p>
+<p class="large_text">Bruce Collie, <u>Jackson Woodruff</u>, Michael F.P. O'Boyle, Modeling black-box components with probabilistic synthesis, International Conference on Generative Programming: Concepts and Experiences, 2020. <a href="https://arxiv.org/abs/2010.04811">PDF</a> <a href="https://github.com/mob-group/synthesis-eval">Evaluation Code</a></br>
+Winner of GPCE Best Paper Award</p>
+<p class="large_text"><u>Jackson Woodruff</u>, Andrew W Moore, Noa Zilberman, Measuring Burstiness in Data Center Applications, Buffers Workshop 2019. <a href="https://www.cl.cam.ac.uk/~nz247/publications/woodruff2019measuring.pdf">PDF</a></p>
+<p class="large_text"><u>Jackson Woodruff</u>, Murali Ramanumjam, Noa Zilberman, P4DNS: In-Network DNS, EuroP4 2019.  <a href="{{url_for('static', filename='pdfs/woodruff2019p4dns.pdf')}}">PDF</a> <a href="https://github.com/cucl-srg/P4DNS">Code</a> <a href="https://www.youtube.com/watch?v=m-dPfx9j9Tw&ab_channel=JacksonWoodruff">Video</a>
+<br/>
+(Also presented at ICIN 2020 and IETF Meeting 107 to the COIN sub-group)<br/>
+Winner of the <a href="http://www.openhw.eu/2020-results.html">Xilinx Open Hardware Award 2020</a></p>
+
+<p class="xlarge_text underline">Theses:</p>
+<p class="large_text">Jackson Woodruff, Analyzing data center applications using high precision packet traces, Master's Dissertation, 2019. <a href="http://jacksonwoodruff.com/static/pdfs/net_measurements_diss.pdf">PDF</a></p>
+
+<p class="large_text">Jackson Woodruff, An Optimizing Compiler for ML, Undergraduate Dissertation, 2018.  <a href="{{url_for('static', filename='pdfs/mlc_diss.pdf')}}">PDF</a> <a href="https://github.com/j-c-w/mlc">Code</a></p>
+
+<p class="xlarge_text underline">Other:</p>
+<p class="large_text">Jackson Woodruff, Compiler Support for Hardware Accelerators, Arm Virtual Conference, 2021</p>
+<p class="large_text">Murali Ramanujam, Jackson Woodruff, Andrew W Moore and Noa Zilberman, "Reproducible Cloud Measurements", poster, Google Networking Research Summit, March 2019.</p>
+
+<p class="large_text">Jackson Woodruff, How to give a talk: annotated bibliography, unpublished 2019.  <a href="{{url_for('static', filename='pdfs/how_to_give_a_talk.pdf')}}">PDF</a></p>
+
+<p class="large_text">Jackson Woodruff, How to give a talk (Talk at the Churchill CompSci Talk Series, 2019 <a href="{{links.jackson_talk()}}">Recording (Youtube)</a>)</p>
+
+</div>
+
+<div id="projectsPopupHolder">
+    <div id="cmlcLogoContainer" class="logoContainer">
+        <div class="projectExpansion big_rounded_corners" id="cmlcProjectAbove">
+            <h2>P4DNS</h2>
+        </div>
+		<div class="circular projectsPopupButton" onclick="window.open('{{links.p4dns()}}', '_blank')" id="p4Logo"></div>
+        <div class="projectExpansion big_rounded_corners" id="cmlcProjectBelow">
+			<div class="projectTextContainer">
+
+P4DNS is a DNS server written in P4.  It is designed to integrate into reprogrammable switches in data center racks and accelerate DNS requests.  We found throughput improvements of more than 50x and latency improvments of 100x over traditional software solutions.
+
+			</div>
+        </div>
+    </div>
+    <div id="gccLogoContainer" class="logoContainer">
+        <div class="projectExpansion big_rounded_corners" id="gccProjectAbove">
+            <h2>GCC</h2>
+        </div>
+        <div class="circular projectsPopupButton"
+			onclick="window.open('{{links.gcc()}}', '_blank')" id="gccLogo"></div>
+        <div class="projectExpansion big_rounded_corners" id="gccProjectBelow">
+			<div class="projectTextContainer">
+GCC is the largest open source compiler toolchain.  My  work focused on
+backend optimizations for Arm architecture targets.
+			</div>
+        </div>
+    </div>
+
+    <div style="clear:both;"></div>
+</div>
+<!-- When you add more, the idea is to have another popup holder here
+so that we have somehting like:
+
+        O           O
+              O
+
+For a 4th, I suggest:
+
+              O
+        O           O
+              O
+              -->

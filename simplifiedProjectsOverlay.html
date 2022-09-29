@@ -1,0 +1,6 @@
+<link property="stylesheet" type="text/css" rel="stylesheet" href="{{url_for('static', filename='stylesheets/projects_overlay.css')}}">
+<script type="text/javascript" rel="stylesheet" src="{{url_for('static', filename='javascripts/project_handler.js')}}"></script>
+
+{% with title = "check out my projects on:", idPrefix = "project", items = projects_overlays %}
+{% include 'fadeList/overlay.html' %}
+{% endwith %}

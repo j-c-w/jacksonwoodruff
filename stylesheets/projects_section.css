@@ -1,0 +1,89 @@
+/*
+ * Note that to use this, you also have to specify the
+ * background.
+ * See the commented out line for an example of that
+ */
+.circular {
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	/*background: url(http://link-to-your/image.jpg) no-repeat;*/
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.logoContainer {
+    vertical-align: middle;
+}
+
+.projectExpansion {
+    width: 0px;
+    height: 50%;
+    overflow: hidden;
+    background: #203037;
+    color: white;
+    margin: 0 auto;
+    /*
+     * We need this to stop graphical glitches when the
+     * box is expanding
+     */
+    white-space: nowrap;
+}
+
+.projectTextContainer {
+	width: 20em;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	/* This is a bit of a mess.  The projects_popup defines the popup
+	 * width to be 22em.  So this is the easiest way to center the text.  */
+	padding-left: 1em;
+}
+
+#projectsPopupHolder {
+	text-align: center;
+	padding-top: 4vh;
+	padding-bottom: 10vh;
+}
+
+#cmlcLogoContainer {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+#gccLogoContainer {
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+#cmlcLogo {
+	background: url(/static/images/CMLCLogo.png) no-repeat;
+	display:inline-block;
+}
+
+#p4Logo {
+	background: url(/static/images/p4.jpg) no-repeat;
+	display:inline-block;
+}
+
+#gccLogo {
+	background: url(/static/images/gccLogo.png) no-repeat;
+	display:inline-block;
+}
+
+#gccProject {
+
+}
+
+#cmlcProject {
+}
+#publications_div {
+	text-align: center;
+	color: white;
+	display: inline-block;
+}
