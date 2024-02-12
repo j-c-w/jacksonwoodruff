@@ -30,6 +30,12 @@
     font-size: 6.6vw;
 }
 
+#job {
+	position: relative;
+	top: -5.7em;
+	font-size: 4.0vw;
+}
+
 .backgroundImage {
     margin: auto;
     height: 100%;

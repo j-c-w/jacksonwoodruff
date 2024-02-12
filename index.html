@@ -18,6 +18,7 @@
 				<div class="pictureOverlay">
 					<h4 id="hiIm" class="title_text">Hi, I'm</h4>
 					<h4 id="name" class="title_text">Jackson Woodruff</h4>
+					<h4 id="job" class="title_text">Assistant Professor, University of Edinburgh</h4>
 					<!-- {% include 'simplifiedProjectsOverlay.html' %} -->
 				</div>
 			</div>
@@ -28,8 +29,8 @@
 
 				<nav id="home_nav">
 					<ul class="nav_list">
-						<li class="thirds"><a href="" class="large_buttonLink homeButtonLink projectsLink">projects</a></li>
-						<li class="thirds"><a href="" class="large_buttonLink homeButtonLink runningLink">running</a></li>
+						<li class="thirds"><a href="" class="large_buttonLink homeButtonLink runningLink">group</a></li>
+						<li class="thirds"><a href="" class="large_buttonLink homeButtonLink projectsLink">papers</a></li>
 						<li class="thirds"><a href="" class="large_buttonLink homeButtonLink aboutLink">me</a></li>
 					</ul>
 				</nav>
@@ -38,8 +39,9 @@
 		</section> <!-- end header -->
 
 		<main>
+
 			<section id="projectsSection" class="pageSection">
-				<!-- {% with background_class = gray, text_class = white %} -->
+				<!-- {% with background_class = green, text_class = white %} -->
 				<!-- {% include 'verticalNavbar.html' %} -->
 				<!-- {% endwith %} -->
 				<!-- Insert a nav bar -->
@@ -53,8 +55,71 @@
 							These have the same IDs in addition to their other IDs
 							to allow their movement to be controlled by the navigation_handler.js-->
 							<li><a href="" class="white medium_buttonLink vertical_nav_item homeLink">home</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">projects</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">running</a></li>
+							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">group</a></li>
+							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">papers</a></li>
+							<li><a href="" class="white medium_buttonLink vertical_nav_item aboutLink">me</a></li>
+					</ul>
+				</nav>
+
+				<p class="large_text white">Under Construction :)</p>
+			</section>
+
+				<!-- {% include 'running.html' %} -->
+				<!--
+				<div id="runningMain">
+					<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/running.css">
+
+					<div id="rightFloatingImage">
+						<img class="runningPictures small_rounded_corners" src="images/MeInPain.jpg"/>
+					</div>
+
+					<div id="times">
+						<h4>PBs: </h4>
+						<table id="resultsTable">
+							<tr>
+								<td>Distance</td>
+								<td>Time</td>
+								<td>Event</td>
+							</tr>
+							<tr>
+								<td>5k</td>
+								<td>17:53</td>
+								<td>Crammond Parkrun</td>
+							</tr>
+							<tr>
+								<td>10k</td>
+								<td>36:49</td>
+								<td>Two Castles 10k</td>
+							</tr>
+							<tr>
+								<td>Half Marathon</td>
+								<td>79:00</td>
+								<td>Bath Half</td>
+							</tr>
+						</table>
+						<section id="running_overlay">
+							{% with title = "check out my running on:", idPrefix = "running", items = running_overlays %}
+							{% include 'fadeList/overlay.html' %}
+							{% endwith %}
+						</section>
+						-->
+			<section id="runningSection" class="pageSection">
+				<!-- {% with background_class = gray, text_class = white %} -->
+				<!-- {% include 'verticalNavbar.html' %} -->
+				<!-- {% endwith %} -->
+				<!-- Insert a nav bar -->
+				<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/vertical_nav.css">
+
+				<nav id="movingNav">
+					<ul class="vertical_nav_list green_background">
+						<!-- Note that this is hidden by the javascript at the start.
+							the movingNav box is the only one that is always visible
+
+							These have the same IDs in addition to their other IDs
+							to allow their movement to be controlled by the navigation_handler.js-->
+							<li><a href="" class="white medium_buttonLink vertical_nav_item homeLink">home</a></li>
+							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">group</a></li>
+							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">papers</a></li>
 							<li><a href="" class="white medium_buttonLink vertical_nav_item aboutLink">me</a></li>
 					</ul>
 				</nav>
@@ -144,65 +209,6 @@
 					O
 				-->
 			</section>
-
-			<section id="runningSection" class="pageSection">
-				<!-- {% with background_class = green, text_class = white %} -->
-				<!-- {% include 'verticalNavbar.html' %} -->
-				<!-- {% endwith %} -->
-				<!-- Insert a nav bar -->
-				<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/vertical_nav.css">
-
-				<nav id="movingNav">
-					<ul class="vertical_nav_list green_background">
-						<!-- Note that this is hidden by the javascript at the start.
-							the movingNav box is the only one that is always visible
-
-							These have the same IDs in addition to their other IDs
-							to allow their movement to be controlled by the navigation_handler.js-->
-							<li><a href="" class="white medium_buttonLink vertical_nav_item homeLink">home</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">projects</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">running</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item aboutLink">me</a></li>
-					</ul>
-				</nav>
-
-				<!-- {% include 'running.html' %} -->
-				<div id="runningMain">
-					<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/running.css">
-
-					<div id="rightFloatingImage">
-						<img class="runningPictures small_rounded_corners" src="images/MeInPain.jpg"/>
-					</div>
-
-					<div id="times">
-						<h4>PBs: </h4>
-						<table id="resultsTable">
-							<tr>
-								<td>Distance</td>
-								<td>Time</td>
-								<td>Event</td>
-							</tr>
-							<tr>
-								<td>5k</td>
-								<td>17:53</td>
-								<td>Crammond Parkrun</td>
-							</tr>
-							<tr>
-								<td>10k</td>
-								<td>36:49</td>
-								<td>Two Castles 10k</td>
-							</tr>
-							<tr>
-								<td>Half Marathon</td>
-								<td>79:00</td>
-								<td>Bath Half</td>
-							</tr>
-						</table>
-						<section id="running_overlay">
-							{% with title = "check out my running on:", idPrefix = "running", items = running_overlays %}
-							{% include 'fadeList/overlay.html' %}
-							{% endwith %}
-						</section>
 					</div>
 				</div>
 			</section>
@@ -219,8 +225,8 @@
 							These have the same IDs in addition to their other IDs
 							to allow their movement to be controlled by the navigation_handler.js-->
 							<li><a href="" class="white medium_buttonLink vertical_nav_item homeLink">home</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">projects</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">running</a></li>
+							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">group</a></li>
+							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">papers</a></li>
 							<li><a href="" class="white medium_buttonLink vertical_nav_item aboutLink">me</a></li>
 					</ul>
 				</nav>
@@ -230,7 +236,17 @@
 
 				<div id="aboutMe">
 					<h2>I'm Jackson Woodruff</h2>
-					<p id="large_text">I'm a PhD student at the University of Edinburgh working on compiling for hardware accelerators.</p>
+					<p id="large_text">I'm a lecturer (assistant professor) at the University of Edinburgh working on compilers for hardware accelerators.</p>
+					<p id="large_text">Currently Recruiting PhD Students, if interested send me an email.</p>
+					<p id="large_text">Research Interests:</p>
+					<ul class="large_text">
+						<li>How do we make hardware accelerators easy to use?</li>
+						<li>How can we improve existing programming models (in particular, APIs and DSLs)?</li>
+						<li>How do we make it easier to build compilers for hardware accelerators?</li>
+						<li>What tools do programmers need to use hardware accelerators?</li>
+						<li>How can we use compilers to co-design hardware?</li>
+						<li>Can we leverage hardware accelerators to reduce carbon emissions?</li>
+					</ul>
 					<p id="large_text">J.C.Woodruff [at] sms.ed.ac.uk        <a href="pdfs/CV.pdf">CV</a></p>
 					<div id="aboutSplitContainer">
 						<div id="leftHandAbout">
@@ -240,10 +256,11 @@
 						<div id="rightHandAbout">
 							<p class="xlarge_text underline">Experience:</p>
 							<ul class=large_text">
+								<li>Lecturer (Assistant Professor), University of Edinburgh, 2024-</li>
 								<li>University of Cambridge, BA and MEng, 2015-2019</li>
 								<li>University of Edinburgh, PhD + Postdoc, 2019-</li>
 								<li>Meta AI, FAIR Labs Intern, 2022</li>
-								<li>MIT, Postdoc, 2023</li>
+								<li>MIT, Visitor, 2023-24</li>
 								<li>Arm Intern, 2017 and 2018</li>
 								<!-- <li><a href="https://conferences.sigcomm.org/imc/2019/">IMC 2019</a> Shadow PC</li> -->
 							</ul>
