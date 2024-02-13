@@ -8,6 +8,22 @@ html, body {
    font-family: "MS Sans Serif", Geneva, sans-serif;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+#groupDiv {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 5%;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 3%;
+}
+
 .large_buttonLink {
     font-size:  1.5em;
     text-decoration: none;
