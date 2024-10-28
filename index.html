@@ -1,301 +1,101 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Home</title>
-		<link type="text/css" rel="stylesheet" href="stylesheets/main.css">
-	</head>
-	<body>
-		<script type="text/javascript" rel="script" src="javascripts/jquery-2.1.4.js"></script>
-		<script type="text/javascript" rel="script" src="javascripts/projects_popup.js"></script>
-		<script type="text/javascript" rel="script" src="javascripts/roro.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Woodruf | Compilers, Synthesis, Accelerators | Edinburgh</title>
+    <link rel="stylesheet" href="/static/style.css">
+<script src="/static/main.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main><div class="hero">
+    <div class="hero-row-1">
+        <div class="hero-heading">
+            <h1>Hi, I'm<br/>
+            <span class="name">Jackson Woodruff</span>
+            </h1>
+            <span class="position">Assistant Professor, University of Edinburgh</span>
+        </div>
+        <div class="hero-aside-image">
+            <img src="static/members/jackson.jpg">
+        </div>
+    </div>
+    <div class="hero-text">
+    I'm a lecturer (assistant professor) at the University of Edinburgh working on compilers for hardware accelerators.
 
-		<!-- Header -->
-		<section id="headerSection" class="pageSection">
-			<link type="text/css" rel="stylesheet" property="stylesheet" href="stylesheets/header.css">
-			<div id="titlePictureDiv">
-				<img class="backgroundImage" id="headerBackgroundImage" srcset="images/BeinnLutharnMhor_Thin.png 10000w, images/BeinnLutharnMhor_Mobile.png 1000w" src="images/BeinnLutharnMhor_Mobile.png"/>
-				<div class="pictureOverlay">
-					<h4 id="hiIm" class="title_text">Hi, I'm</h4>
-					<h4 id="name" class="title_text">Jackson Woodruff</h4>
-					<h4 id="job" class="title_text">Assistant Professor, University of Edinburgh</h4>
-					<!-- {% include 'simplifiedProjectsOverlay.html' %} -->
-				</div>
-			</div>
-			<!-- Navigation -->
-			<section id="navigation" class="pageSection">
-				<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/navigation.css">
-				<script type="text/javascript" rel="stylesheet" src="javascripts/navigation_handler.js"></script>
+    Currently Recruiting PhD Students, if interested send me an email.
+    </div>
+</div>
 
-				<nav id="home_nav">
-					<ul class="nav_list">
-						<li class="thirds"><a href="" class="large_buttonLink homeButtonLink runningLink">group</a></li>
-						<li class="thirds"><a href="" class="large_buttonLink homeButtonLink projectsLink">papers</a></li>
-						<li class="thirds"><a href="" class="large_buttonLink homeButtonLink aboutLink">me</a></li>
-					</ul>
-				</nav>
+<h1>Research</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+<ul>
+<li>How do we make hardware accelerators easy to use?</li>
+<li>How can we improve existing programming models (in particular, APIs and DSLs)?</li>
+<li>How do we make it easier to build compilers for hardware accelerators?</li>
+<li>What tools do programmers need to use hardware accelerators?</li>
+<li>How can we use compilers to co-design hardware?</li>
+<li>Can we leverage hardware accelerators to reduce carbon emissions?</li>
+</ul>
+<h1>Team</h1>
+<p><div class="member-list">
+<div class="member-item">
+            <div class="member-photo"><img src="static/members/anton.jpg"/></div>
+            <div class="member-info">
+                <div class="member-name">Anton Lydike</div>
+                <div class="member-topic">Making accelerators more flexible</div>
+            </div>
+        </div>
+</div>
+</p>
+<h1>Publications</h1>
+<p><h2>2024</h2>
+<ul>
+<li class="paper-item"><div class="paper-title">Forklift: An Extensible Neural Lifter<span class="paper-venue">COLM</span></div> <div class="paper-authors">Jordi Armengol-Estapé, Rodrigo R.O. Rocha, <u>Jackson Woodruff</u>, Psquale Minervini, Michael F.P. O'Boyle</div> <div></div><a href="https://arxiv.org/pdf/2404.16041" target="_blank">PDF</a></li>
+<li class="paper-item"><div class="paper-title">Secco: Codesign for Resource Sharing in Regular Expression Accelerators<span class="paper-venue">ASP-DAC</span></div> <div class="paper-authors"><u>Jackson Woodruff</u>, Sam Ainsworth, Michael F.P. O'Boyle</div> <div></div><a href="https://jacksonwoodruff.com/pdfs/woodruff_aspdac_24.pdf" target="_blank">PDF</a>, <a href="https://github.com/j-c-w/APsim" target="_blank">Code</a></li>
+<li class="paper-item"><div class="paper-title">SLaDe: A Portable Small Language Model Decompiler for Optimized Assembler<span class="paper-venue">CGO</span></div> <div class="paper-authors">Jordi Armengol-Estapé, <u>Jackson Woodruff</u>, Chris Cummins, Michael F.P. O'Boyle</div> <div></div><a href="https://arxiv.org/pdf/2305.12520.pdf" target="_blank">Paper</a></li>
+</ul>
+<h2>2023</h2>
+<ul>
+<li class="paper-item"><div class="paper-title">Rewriting History: Repurposing Domain-Specific CGRAs<span class="paper-venue">arXiv</span></div> <div class="paper-authors"><u>Jackson Woodruff</u>, Thomas Koehler, Alexander Brauckmann, Chris Cummins, Sam Ainsworth, Michael F.P. O'Boyle</div> <div></div><a href="https://arxiv.org/pdf/2309.09112.pdf" target="_blank">PDF</a>, <a href="https://github.com/j-c-w/CGRA-Mapper" target="_blank">Code</a></li>
+<li class="paper-item"><div class="paper-title">C2TACO: Lifting Tensor Code to TACO<span class="paper-venue">GPCE</span></div> <div class="paper-authors">José Wesley de Souza Magalhães, <u>Jackson Woodruff</u>, Elizabeth Polgreen, Michael F.P. O'Boyle</div> <div> <span class='paper-awards'>GPCE Best Paper Award</span></div><a href="https://josewesley.com/archive/c2taco.pdf" target="_blank">Paper</a>, <a href="https://github.com/JWesleySM/c2taco" target="_blank">Code</a></li>
+<li class="paper-item"><div class="paper-title">When does saving power save the planet?<span class="paper-venue">HotCarbon</span></div> <div class="paper-authors"><u>Jackson Woodruff</u>, David Schall, Michael F.P. O'Boyle, Christopher Woodruff</div> <div></div><a href="https://jacksonwoodruff.com/pdfs/hotcarbon23.pdf" target="_blank">Paper</a></li>
+<li class="paper-item"><div class="paper-title">Designing CGRAs with Deep Reinforcement Learning<span class="paper-venue">DoSSA</span></div> <div class="paper-authors"><u>Jackson Woodruff</u>, Chris Cummins</div> <div></div><a href="https://jacksonwoodruff.com/pdfs/dossa23.pdf" target="_blank">Paper</a>, <a href="https://github.com/j-c-w/RL_streaming_engine" target="_blank">Code</a></li>
+<li class="paper-item"><div class="paper-title">Matching linear algebra and tensor code to specialized hardware accelerators<span class="paper-venue">CC</span></div> <div class="paper-authors">Pablo Antonio Martínez, <u>Jackson Woodruff</u>, Jordi Armengol-Estapé, Gregorio Bernabé, José Manuel García, Michael F.P. O'Boyle</div> <div></div><a href="https://arxiv.org/abs/2301.11659" target="_blank">Preprint</a></li>
+</ul>
+<h2>2022</h2>
+<ul>
+<li class="paper-item"><div class="paper-title">Bind the Gap: Compiling Real Software to Hardware FFT Accelerators<span class="paper-venue">PLDI</span></div> <div class="paper-authors"><u>Jackson Woodruff</u>, Jordi Armengol-Estapé, Sam Ainsworth, Michael F.P. O'Boyle</div> <div></div><a href="https://jacksonwoodruff.com/pdfs/pldi2022.pdf" target="_blank">Preprint</a>, <a href="https://github.com/FourierACceleratorCompiler/FACC" target="_blank">Code</a>, <a href="https://www.youtube.com/watch?v=yIOOX4whEd8&list=PLyrlk8Xaylp4aGsN5wVcECG736A2JeMon&index=10&ab_channel=ACMSIGPLAN" target="_blank">Talk</a></li>
+<li class="paper-item"><div class="paper-title">ExeBench: an ML-scale dataset of executable C functions<span class="paper-venue">MAPS@PLDI</span></div> <div class="paper-authors">Jordi Armengol-Estapé, <u>Jackson Woodruff</u>, Alexander Brauckmann, José Wesley de Souza Magalhães, Michael F.P. O'Boyle</div> <div></div><a href="https://dl.acm.org/doi/abs/10.1145/3520312.3534867" target="_blank">Paper</a></li>
+</ul>
+<h2>2021</h2>
+<ul>
+<li class="paper-item"><div class="paper-title">NRG: A Network Perspective on Applications' Performance<span class="paper-venue">TMA</span></div> <div class="paper-authors">Noa Zilberman, Andrew W Moore, Billy Cooper, <u>Jackson Woodruff</u>, Yuta Tokusashi, Pietro Bressana, Murali Ramanujam, Salvator Galea</div> <div></div><a href="https://eng.ox.ac.uk/media/9964/zilberman21nrg.pdf" target="_blank">PDF</a></li>
+<li class="paper-item"><div class="paper-title">New Regular Expressions on Old Accelerators<span class="paper-venue">58th Design Automation Conference</span></div> <div class="paper-authors"><u>Jackson Woodruff</u>, Michael F.P. O'Boyle</div> <div></div><a href="https://jacksonwoodruff.com/pdfs/DAC_2021_Paper.pdf" target="_blank">Preprint</a>, <a href="https://github.com/j-c-w/RXPSC" target="_blank">Code</a></li>
+</ul>
+<h2>2020</h2>
+<ul>
+<li class="paper-item"><div class="paper-title">M3: Semantic API Migrations<span class="paper-venue">ASE</span></div> <div class="paper-authors">Bruce Collie, Philip Ginsbach, <u>Jackson Woodruff</u>, Ajitha Rajan, Michael F.P. O'Boyle</div> <div></div><a href="https://baltoli.github.io/static/ase.pdf" target="_blank">PDF</a></li>
+<li class="paper-item"><div class="paper-title">Modeling black-box components with probabilistic synthesis<span class="paper-venue">GPCE</span></div> <div class="paper-authors">Bruce Collie, <u>Jackson Woodruff</u>, Michael F.P. O'Boyle</div> <div> <span class='paper-awards'>GPCE Best Paper Award</span></div><a href="https://arxiv.org/abs/2010.04811" target="_blank">PDF</a>, <a href="https://github.com/mob-group/synthesis-eval" target="_blank">Code</a></li>
+</ul>
+<h2>2019</h2>
+<ul>
+<li class="paper-item"><div class="paper-title">Measuring Burstiness in Data Center Applications<span class="paper-venue">Buffers Workshop</span></div> <div class="paper-authors"><u>Jackson Woodruff</u>, Andrew W Moore, Noa Zilberman</div> <div></div><a href="https://www.cl.cam.ac.uk/~nz247/publications/woodruff2019measuring.pdf" target="_blank">PDF</a></li>
+<li class="paper-item"><div class="paper-title">P4DNS: In-Network DNS<span class="paper-venue">EuroP4</span></div> <div class="paper-authors"><u>Jackson Woodruff</u>, Murali Ramanumjam, Noa Zilberman</div> <div> <span class='paper-notes'>(Also presented at ICIN 2020 and IETF Meeting 107 to the COIN sub-group)</span> <span class='paper-awards'>Xilinx Open Hardware Award 2020</span></div><a href="https://jacksonwoodruff.com/pdfs/woodruff2019p4dns.pdf" target="_blank">PDF</a>, <a href="https://github.com/cucl-srg/P4DNS" target="_blank">Code</a>, <a href="https://www.youtube.com/watch?v=m-dPfx9j9Tw&ab_channel=JacksonWoodruff" target="_blank">Video</a></li>
+</ul>
 
-			</section>
-		</section> <!-- end header -->
-
-		<main>
-
-			<section id="projectsSection" class="pageSection">
-				<!-- {% with background_class = green, text_class = white %} -->
-				<!-- {% include 'verticalNavbar.html' %} -->
-				<!-- {% endwith %} -->
-				<!-- Insert a nav bar -->
-				<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/vertical_nav.css">
-
-				<nav id="movingNav">
-					<ul class="vertical_nav_list gray_background">
-						<!-- Note that this is hidden by the javascript at the start.
-							the movingNav box is the only one that is always visible
-
-							These have the same IDs in addition to their other IDs
-							to allow their movement to be controlled by the navigation_handler.js-->
-							<li><a href="" class="white medium_buttonLink vertical_nav_item homeLink">home</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">group</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">papers</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item aboutLink">me</a></li>
-					</ul>
-				</nav>
-
-				<div id="groupDiv">
-					<h2 class="xlarge_text white underline">Group</h2>
-					<p class="large_text white center">Current Members:</p>
-					<ul class="large_text white center">
-						<li><a href="https://antonlydike.de/">Anton Lydike</a>: Making accelerators more flexible</li>
-					</ul>
-					<p class="large_text white center">We're still growing :)  See below for our current research and general topic ideas, and if interested in a PhD in compilers drop me an email.</p>
-					<!--
-					<p class="large_text white center">Under Construction :) (in the meantime, enjoy ponyhenge)</p>
-					<img width="95%" class="big_rounded_corners" src="images/ponyhenge.jpg" class="center"/>
-					<p class="large_text white center">Interested in working with me? Great!  See the "me" section for more details</p>
-					-->
-				</div>
-			</section>
-
-				<!-- {% include 'running.html' %} -->
-				<!--
-				<div id="runningMain">
-					<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/running.css">
-
-					<div id="rightFloatingImage">
-						<img class="runningPictures small_rounded_corners" src="images/MeInPain.jpg"/>
-					</div>
-
-					<div id="times">
-						<h4>PBs: </h4>
-						<table id="resultsTable">
-							<tr>
-								<td>Distance</td>
-								<td>Time</td>
-								<td>Event</td>
-							</tr>
-							<tr>
-								<td>5k</td>
-								<td>17:53</td>
-								<td>Crammond Parkrun</td>
-							</tr>
-							<tr>
-								<td>10k</td>
-								<td>36:49</td>
-								<td>Two Castles 10k</td>
-							</tr>
-							<tr>
-								<td>Half Marathon</td>
-								<td>79:00</td>
-								<td>Bath Half</td>
-							</tr>
-						</table>
-						<section id="running_overlay">
-							{% with title = "check out my running on:", idPrefix = "running", items = running_overlays %}
-							{% include 'fadeList/overlay.html' %}
-							{% endwith %}
-						</section>
-						-->
-			<section id="runningSection" class="pageSection">
-				<!-- {% with background_class = gray, text_class = white %} -->
-				<!-- {% include 'verticalNavbar.html' %} -->
-				<!-- {% endwith %} -->
-				<!-- Insert a nav bar -->
-				<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/vertical_nav.css">
-
-				<nav id="movingNav">
-					<ul class="vertical_nav_list green_background">
-						<!-- Note that this is hidden by the javascript at the start.
-							the movingNav box is the only one that is always visible
-
-							These have the same IDs in addition to their other IDs
-							to allow their movement to be controlled by the navigation_handler.js-->
-							<li><a href="" class="white medium_buttonLink vertical_nav_item homeLink">home</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">group</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">papers</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item aboutLink">me</a></li>
-					</ul>
-				</nav>
-
-				<!-- {% include 'projects.html' %} -->
-				<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/projects_section.css">
-
-				<div id="publications_div">
-					<p class="xlarge_text underline">Publications:</p>
-					<p class="large_text">Jordi Armengol-Estapé, Rodrigo R.O. Rocha, <u>Jackson Woodruff</u>, Psquale Minervini, Michael F.P. O'Boyle, Forklift: An Extensible Neural Lifter, COLM 2024 <a href="https://arxiv.org/pdf/2404.16041">PDF</a></p> 
-					<p class="large_text"><u>Jackson Woodruff</u>, Sam Ainsworth, Michael F.P. O'Boyle, Secco: Codesign for Resource Sharing in Regular Expression Accelerators, ASP-DAC 2024 <a href="pdfs/woodruff_aspdac_24.pdf">PDF</a> <a href="https://github.com/j-c-w/APsim">Code</a></p>
-					<p class="large_text">Jordi Armengol-Estapé, <u>Jackson Woodruff</u>, Chris Cummins, Michael F.P. O'Boyle, SLaDe: A Portable Small Language Model Decompiler for Optimized Assemnbler, CGO 2024 <a href="https://arxiv.org/pdf/2305.12520.pdf">Paper</a></p>
-					<p class="large_text"><u>Jackson Woodruff</u>, Thomas Koehler, Alexander Brauckmann, Chris Cummins, Sam Ainsworth, Michael F.P. O'Boyle, Rewriting History: Repurposing Domain-Specific CGRAs, Arxiv <a href="https://arxiv.org/pdf/2309.09112.pdf">PDF</a> <a href="https://github.com/j-c-w/CGRA-Mapper">Code</a></p>
-					<p class="large_text">José Wesley de Souza Magalhães, <u>Jackson Woodruff</u>, Elizabeth Polgreen, Michael F.P. O'Boyle, C2TACO: Lifting Tensor Code to TACO, GPCE 2023 <a href="https://josewesley.com/archive/c2taco.pdf">Paper</a> <a href="https://github.com/JWesleySM/c2taco">Code</a></p> <p>Winner of GPCE Best Paper Award</p>
-					<p class="large_text"><u>Jackson Woodruff</u>, David Schall, Michael F.P. O'Boyle, Christopher Woodruff, When does saving power save the planet?, HotCarbon 2023 <a href="pdfs/hotcarbon23.pdf">Paper</a></p>
-					<p class="large_text"><u>Jackson Woodruff</u>, Chris Cummins, Designing CGRAs with Deep Reinforcement Learning, DoSSA 2023 <a href="pdfs/dossa23.pdf">Paper</a> <a href="https://github.com/j-c-w/RL_streaming_engine">Code</a></p>
-					<p class="large_text">Pablo Antonio Martínez, <u>Jackson Woodruff</u>, Jordi Armengol-Estapé, Gregorio Bernabé, José Manuel García, Michael F.P. O'Boyle, Matching linear algebra and tensor code to specialized hardware accelerators, CC 2023 <a href="https://arxiv.org/abs/2301.11659">Preprint</a></p>
-					<p class="large_text"><u>Jackson Woodruff</u>, Jordi Armengol-Estapé, Sam Ainsworth, Michael F.P. O'Boyle, Bind the Gap: Compiling Real Software to Hardware FFT Accelerators, PLDI 2022 <a href="pdfs/pldi2022.pdf">Preprint</a> <a href="https://github.com/FourierACceleratorCompiler/FACC">Code</a> <a href="https://www.youtube.com/watch?v=yIOOX4whEd8&list=PLyrlk8Xaylp4aGsN5wVcECG736A2JeMon&index=10&ab_channel=ACMSIGPLAN">Talk</a> </p>
-					<p class="large_text">Jordi Armengol-Estapé, <u>Jackson Woodruff</u>, Alexander Bruachkmann, José Wesley de Souza Magalhães, Michael F. P. O'Boyle, ExeBench: an ML-scale dataset of executable C functions, MAPS@PLDI 2022 <a href="https://dl.acm.org/doi/abs/10.1145/3520312.3534867">Paper</a> </p>
-					<p class="large_text">Noa Zilberman, Andrew W Moore, Billy Cooper, <u>Jackson Woodruff</u>, Yuta Tokusashi, Pietro Bressana, Murali Ramanujam, Salvator Galea, NRG: A Netwrok Perspective on Applications' Performance, TMA 2021 <a href="https://eng.ox.ac.uk/media/9964/zilberman21nrg.pdf">PDF</a></p>
-					<p class="large_text"><u>Jackson Woodruff</u>, Michael F. P. O'Boyle, New Regular Expressions on Old Accelerators, 58th Design Automation Conference, 2021.  <a href="pdfs/DAC_2021_Paper.pdf">Preprint</a> <a href="https://github.com/j-c-w/RXPSC">Code</a></p>
-					<p class="large_text">Bruce Collie, Philip Ginsbach, <u>Jackson Woodruff</u>, Ajitha Rajan, Michael F. P. O'Boyle, M3: Semantic API Migrations, International Conference on Automated Software Engineering, 2020. <a href="https://baltoli.github.io/static/ase.pdf">PDF</a></p>
-					<p class="large_text">Bruce Collie, <u>Jackson Woodruff</u>, Michael F.P. O'Boyle, Modeling black-box components with probabilistic synthesis, International Conference on Generative Programming: Concepts and Experiences, 2020. <a href="https://arxiv.org/abs/2010.04811">PDF</a> <a href="https://github.com/mob-group/synthesis-eval">Evaluation Code</a></br>
-					Winner of GPCE Best Paper Award</p>
-					<p class="large_text"><u>Jackson Woodruff</u>, Andrew W Moore, Noa Zilberman, Measuring Burstiness in Data Center Applications, Buffers Workshop 2019. <a href="https://www.cl.cam.ac.uk/~nz247/publications/woodruff2019measuring.pdf">PDF</a></p>
-					<p class="large_text"><u>Jackson Woodruff</u>, Murali Ramanumjam, Noa Zilberman, P4DNS: In-Network DNS, EuroP4 2019.  <a href="pdfs/woodruff2019p4dns.pdf">PDF</a> <a href="https://github.com/cucl-srg/P4DNS">Code</a> <a href="https://www.youtube.com/watch?v=m-dPfx9j9Tw&ab_channel=JacksonWoodruff">Video</a>
-					<br/>
-					(Also presented at ICIN 2020 and IETF Meeting 107 to the COIN sub-group)<br/>
-					Winner of the <a href="http://www.openhw.eu/2020-results.html">Xilinx Open Hardware Award 2020</a></p>
-
-					<p class="xlarge_text underline">Theses:</p>
-					<p class="large_text">Jackson Woodruff, Acceleration for the many, not the few, PhD Thesis, 2024 <a href="pdfs/acceleration.pdf">PDF</a></p>
-					<p class="large_text">Jackson Woodruff, Analyzing data center applications using high precision packet traces, Master's Dissertation, 2019. <a href="http://jacksonwoodruff.com/static/pdfs/net_measurements_diss.pdf">PDF</a></p>
-
-					<p class="large_text">Jackson Woodruff, An Optimizing Compiler for ML, Undergraduate Dissertation, 2018.  <a href="pdfs/mlc_diss.pdf">PDF</a> <a href="https://github.com/j-c-w/mlc">Code</a></p>
-
-					<p class="xlarge_text underline">Other:</p>
-					<p class="large_text">Jackson Woodruff, Michael F.P. O'Boyle, Rewriting in Modern Compilers, HiPEAC ACASES Summer School, 2023</p>
-					<p class="large_text">Jackson Woodruff, Compiler Support for Hardware Accelerators, Arm Virtual Conference, 2021</p>
-					<p class="large_text">Murali Ramanujam, Jackson Woodruff, Andrew W Moore and Noa Zilberman, "Reproducible Cloud Measurements", poster, Google Networking Research Summit, March 2019.</p>
-
-					<p class="large_text">Jackson Woodruff, How to give a talk: annotated bibliography, unpublished 2019.  <a href="pdfs/how_to_give_a_talk.pdf">PDF</a></p>
-
-					<p class="large_text">Jackson Woodruff, How to give a talk (Talk at the Churchill CompSci Talk Series, 2019 <a href="https://www.youtube.com/watch?v=GfFtgypAjxM">Recording (Youtube)</a>)</p>
-
-				</div>
-
-<!-- 				<div id="projectsPopupHolder"> -->
-<!-- 					<div id="cmlcLogoContainer" class="logoContainer"> -->
-<!-- 						<div class="projectExpansion big_rounded_corners" id="cmlcProjectAbove"> -->
-<!-- 							<h2>P4DNS</h2> -->
-<!-- 						</div> -->
-<!-- 						<div class="circular projectsPopupButton" onclick="window.open('https://github.com/cucl-srg/P4DNS', '_blank')" id="p4Logo"></div> -->
-<!-- 						<div class="projectExpansion big_rounded_corners" id="cmlcProjectBelow"> -->
-<!-- 							<div class="projectTextContainer"> -->
-
-<!-- 								P4DNS is a DNS server written in P4.  It is designed to integrate into reprogrammable switches in data center racks and accelerate DNS requests.  We found throughput improvements of more than 50x and latency improvments of 100x over traditional software solutions. -->
-
-<!-- 							</div> -->
-<!-- 						</div> -->
-<!-- 					</div> -->
-<!-- 					<div id="gccLogoContainer" class="logoContainer"> -->
-<!-- 						<div class="projectExpansion big_rounded_corners" id="gccProjectAbove"> -->
-<!-- 							<h2>GCC</h2> -->
-<!-- 						</div> -->
-<!-- 						<div class="circular projectsPopupButton" -->
-<!-- 							 onclick="window.open('{{links.gcc()}}', '_blank')" id="gccLogo"></div> -->
-<!-- 						<div class="projectExpansion big_rounded_corners" id="gccProjectBelow"> -->
-<!-- 							<div class="projectTextContainer"> -->
-<!-- 								GCC is the largest open source compiler toolchain.  My  work focused on -->
-<!-- 								backend optimizations for Arm architecture targets. -->
-<!-- 							</div> -->
-<!-- 						</div> -->
-<!-- 					</div> -->
-
-					<div style="clear:both;"></div>
-				</div>
-				<!-- When you add more, the idea is to have another popup holder here
-					so that we have somehting like:
-
-					O           O
-					O
-
-					For a 4th, I suggest:
-
-					O
-					O           O
-					O
-				-->
-			</section>
-					</div>
-				</div>
-			</section>
-
-			<section id="aboutSection" class="pageSection">
-				<!-- {% with background_class = gray, text_class = white %} -->
-				<!-- {% include 'verticalNavbar.html' %} -->
-				<!-- {% endwith %} -->
-				<nav id="movingNav">
-					<ul class="vertical_nav_list gray_background">
-						<!-- Note that this is hidden by the javascript at the start.
-							the movingNav box is the only one that is always visible
-
-							These have the same IDs in addition to their other IDs
-							to allow their movement to be controlled by the navigation_handler.js-->
-							<li><a href="" class="white medium_buttonLink vertical_nav_item homeLink">home</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item runningLink">group</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item projectsLink">papers</a></li>
-							<li><a href="" class="white medium_buttonLink vertical_nav_item aboutLink">me</a></li>
-					</ul>
-				</nav>
-
-				<!-- {% include 'about.html' %} -->
-				<link property="stylesheet" type="text/css" rel="stylesheet" href="stylesheets/about.css">
-
-				<div id="aboutMe">
-					<h2>I'm Jackson Woodruff</h2>
-					<p id="large_text">I'm a lecturer (assistant professor) at the University of Edinburgh working on compilers for hardware accelerators.</p>
-					<p id="large_text">Currently Recruiting PhD Students, if interested send me an email.</p>
-					<p id="large_text">Research Interests:</p>
-					<ul class="large_text">
-						<li>How do we make hardware accelerators easy to use?</li>
-						<li>How can we improve existing programming models (in particular, APIs and DSLs)?</li>
-						<li>How do we make it easier to build compilers for hardware accelerators?</li>
-						<li>What tools do programmers need to use hardware accelerators?</li>
-						<li>How can we use compilers to co-design hardware?</li>
-						<li>Can we leverage hardware accelerators to reduce carbon emissions?</li>
-					</ul>
-					<p id="large_text">J.C.Woodruff [at] sms.ed.ac.uk        <a href="pdfs/CV.pdf">CV</a></p>
-					<div id="aboutSplitContainer">
-						<div id="leftHandAbout">
-							<img width="95%" class="big_rounded_corners" src="images/me1.jpg"/>
-						</div>
-
-						<div id="rightHandAbout">
-							<p class="xlarge_text underline">Experience:</p>
-							<ul class=large_text">
-								<li>Lecturer (Assistant Professor), University of Edinburgh, 2024-</li>
-								<li>University of Cambridge, BA and MEng, 2015-2019</li>
-								<li>University of Edinburgh, PhD + Postdoc, 2019-</li>
-								<li>Meta AI, FAIR Labs Intern, 2022</li>
-								<li>MIT, Visitor, 2023-24</li>
-								<li>Arm Intern, 2017 and 2018</li>
-								<!-- <li><a href="https://conferences.sigcomm.org/imc/2019/">IMC 2019</a> Shadow PC</li> -->
-							</ul>
-
-							<p class="xlarge_text underline">Awards:</p>
-							<ul class="large_text">
-								<li>Best Paper Award, GPCE 2023</li>
-									      <li>Xilinx Open Hardware Award, 2020</li>
-								<li>Best Paper Award, GPCE 2020</li>
-								<li>Distinguished Talk Award, Churchill College Computer Science Talks Series, 2017 and 2018 </li>
-								<li>Magdalene College Prize for Computer Science, 2016, 2018, 2019</li>
-								<li>Magdalene College Academic Scholarship, 2016-2017, 2018-2019, 2019-2020</li>
-								<li>Top 50 A-Level Computer Science Student in the UK, 2015 </li>
-							</ul>
-						</div>
-					</div>
-
-					<div id="bottomQuote">
-					</div>
-				</div>
-			</section>
-		</main>
-	</body>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a74bc58141aa431e9671bd4f4220b748"}'></script><!-- End Cloudflare Web Analytics -->
+</p>
+<h1>Getting In Touch</h1>
+<p>We are located bla bla bla</p>
+<p>You can contact me bla bla bla</p>
+<iframe id="map-canvas" class="map_part" width="100%"  height="450"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Informatics Forum, Edinburgh&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></main>
+    <footer>
+        <span class="copyright-notice">&copy; 2024 - Jackson Woodruff</span>
+        <span class="meta-info">Last updated 2024-28-10 15:29</span>
+    </footer>
+</body>
 </html>
